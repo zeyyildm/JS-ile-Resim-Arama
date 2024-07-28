@@ -1,0 +1,41 @@
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 400px;
+}
+
+#searchInput{
+    width: 50%;
+}
+
+.button-wrapper{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+
+#searchButton{
+    background-color: rgb(106, 106, 232);
+    width: 70px;
+}
+
+#clearButton{
+    background-color: rgb(232, 106, 106);
+    width: 70px;
+}
+
+.image-list-wrapper {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.image-list-wrapper > .card{
+    margin:20px;
+    border: 1px solid grey;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 3px 5px 8px grey;
+}
